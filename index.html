@@ -23,27 +23,26 @@
     <header>
         <nav>
             <div id="logo">Ekaterina
-                < / > Nattrass
+                < /> Nattrass
             </div>
             <div class="nav-links">
-                <a href="#expertise" id="expertise-link">// expertise</a>
-                <a href="#projects" id="projects-link">// projects</a>
-                <a href="#contact" id="contact-link">// contact</a>
+                <a href="#expertise" class="expertise-link">// expertise</a>
+                <a href="#projects" class="projects-link">// projects</a>
+                <a href="#contact" class="contact-link">// contact</a>
             </div>
         </nav>
     </header>
     <main>
-        <section id="home">
+        <section class="home">
             <img src="images/selfie.png" alt="a head-shot of Ekaterina Nattrass smiling at the camera" id="selfie">
             <h1>Front End Developer._</h1>
             <p>
                 < Building Beautiful Experiences, <br>
                     One Line at a Time />
             </p>
-            
-            <button onclick="changeTheMode()" id="mode">change mode</button>
+            <button onclick="changeTheMode()" class="mode">change mode</button>
         </section>
-        <section id="expertise">
+        <section class="expertise" id="expertise">
             <div class="left">
                 <h2>// expertise</h2>
             </div>
@@ -56,77 +55,75 @@
                     touch to discuss your next project!</div>
             </div>
         </section>
-        <section id="projects">
-            <div class="project-container">
+        <section class="projects" id="projects">
+            <div>
                 <h3> { Rainy Days } </h3>
                 <div class="project">
                     <img src="images/RainyDays.png" class="screenshot"
                         alt="a screenshot of the home page to the Rainydays website showing mountains in the distance">
                     <div class="site-description">An e-commerce website selling outdoors jackets of various kinds. The
                         target group includes middle-aged people ready for new challenges and fascinating adventures.
-                        The choice of breath-taking outdoors images, natural colours and clean geometric fonts - all  a customer.
+                        The choice of breath-taking outdoors images, natural colours and clean geometric fonts - all
+                        that designed to attract a
+                        customer.
                     </div>
                 </div>
-                <a href="https://peppy-froyo-40c9b0.netlify.app/"><button class="glowing">Explore more</button></a>
+                <div class="buttons">
+                    <a href="https://peppy-froyo-40c9b0.netlify.app/"><button class="glowing">Web Site</button></a>
+                    <a href="https://github.com/EkaterinaNattrass/rainydays-website"><button class="glowing">Github
+                            repo</button></a>
+                </div>
             </div>
-
-            <div class="project-container">
+            <div>
                 <h3> { Community <br> Science <br> Museum } </h3>
                 <div class="project">
                     <img src="images/Museum.png" class="screenshot"
                         alt="a screenshot of Community Science museum home page showing the building of the museum">
                     <div class="site-description">A website for a local science museum which has various exhibition
-                        spaces
-                        which it strives to make as much fun as possible. The website is directed at both children
-                        interested in science and
-                        families looking for a place to spend their time together while learning something new.
+                        spaces which it strives to make as much fun as possible. The website is directed at both
+                        children
+                        interested in science and families looking for a place to spend their time together while
+                        learning something new.
                     </div>
                 </div>
-                <a href="https://glittery-kitten-be132b.netlify.app"><button class="glowing">Explore more</button></a>
+                <div class="buttons">
+                    <a href="https://glittery-kitten-be132b.netlify.app"><button class="glowing">Web Site</button></a>
+                    <a href="https://github.com/EkaterinaNattrass/community-science-museum"><button
+                            class="glowing">Github
+                            repo</button></a>
+                </div>
             </div>
-
-            <div class="project-container">
-                <h3> { Oslo Sup Blog }</h3>
+            <div>
+                <h3> { Oslo Sup }</h3>
                 <div class="project">
                     <img src="images/OsloSup.png" class="screenshot"
                         alt="a screenshot of the OsloSup blog home page showing a couple on a sup in an ocean">
                     <div class="site-description">
                         <div class="text"> A blog of a paddle board enthusiast living currently in Oslo. The website
                             invites you to jump on the board and explore the ocean with its strong marine vibe and
-                            inspiring ocean images. The
-                            posts cover a wide range of topics dedicated to the activity.</div>
+                            inspiring ocean images. The posts cover a wide range of topics dedicated to the activity.
+                        </div>
                     </div>
                 </div>
-                <a href="https://frolicking-truffle-7c228c.netlify.app/"><button class="glowing">Explore
-                        more</button></a>
+                <div class="buttons">
+                    <a href="https://frolicking-truffle-7c228c.netlify.app/"><button class="glowing">Web
+                            site</button></a>
+                    <a href="https://github.com/EkaterinaNattrass/Oslo-Sup"><button class="glowing">Github
+                            repo</button></a>
+                </div>
             </div>
-
         </section>
-        <section id="contact">
+        <section class="contact" id="contact">
             <h2>// contact</h2>
             <div class="contact-container">
                 <div>If you have a question or proposal, feel free to contact me</div>
-                <form action="" id="form-container">
-                    <div id="name-email">
-                        <label for="name"></label>
-                        <input type="text" id="name" name="name" placeholder="Your name">
-                        <label for="email"></label>
-                        <input type="email" id="email" name="email" placeholder="Your email">
-                    </div>
-                    <div>
-                        <label for="message"></label>
-                        <textarea id="message" name="message" placeholder="Your message goes here..."></textarea>
-                    </div>
-                    <button class="glowing" id="send">send</button>
-                </form>
-                <div>You can also send a message to cattiva2012@gmail.com</div>
+                <div><i class="fa-regular fa-envelope"></i>cattiva2012@gmail.com</div>
+                <div><i class="fa-brands fa-github"></i><a href="https://github.com/EkaterinaNattrass"
+                        id="github">Github</a></div>
             </div>
         </section>
     </main>
-    <a href="#" aria-label="button up"><i class="fa-solid fa-angle-up fa-2xl" id="to-top"></i></a>
-    <footer>
-        <div>EkaNat 2023</div>
-    </footer>
+    <a href="#" aria-label="button up"><i class="fa-solid fa-angle-up fa-2xl"></i></a>
 </body>
 <script src="script.js"></script>
 
