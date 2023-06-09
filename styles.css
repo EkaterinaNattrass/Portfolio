@@ -376,9 +376,13 @@ nav a:hover {
     }
 }
 
-@media (max-width:770px) {
+@media (max-width:800px) {
     nav {
-        height: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        font-size: 40px;
     }
 
     .nav-links {
@@ -391,48 +395,28 @@ nav a:hover {
     .projects-link,
     .contact-link {
         color: var(--dark-theme);
+        font-size: 28px;
         margin-right: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
-}
-
-@media (max-width:650px) {
-
-    .home, nav {
-        background: linear-gradient(to right, #121726 0% 70%, #CAFF32 70% 100%);
+    .home {
+        min-height: calc(100vh - 300px);
     }
 
-    .mode {
-        display: none;
-    }
-
-    #logo {
-        font-size: 20px;
-        margin-left: 30px;
-    }
-
-    .home p {
-        margin-bottom: 50px;
-    }
-
-    .expertise-link,
-    .projects-link,
-    .contact-link {
-        font-size: 15px;
-        margin: 0;
-        padding: 0 20px 25px 0;
+    .home h1 {
+        font-size: 55px;
     }
 
     #selfie {
-        width: 200px;
+        width: 300px;
         margin: 0;
     }
 
-    p {
-        width: 200px;
-        font-size: 25px;
-        margin-bottom: 50px;
+    .home p {
+        width: 70%;
+        font-size: 40px;
+        line-height: 2;
     }
 
     .expertise {
@@ -441,38 +425,105 @@ nav a:hover {
 
     .right {
         width: 80%;
-        padding: 1.5%;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding: 1.2%;
+        font-size: 40px;
     }
 
     .projects h3 {
-        font-size: 25px;
-        width: 40%;
-        margin-top: 100px;
-    }
-    .site-description {
-        padding: 10%;
-    }
-
-    div.project{
-        width: 80%;
+        font-size: 50px;
+        width: 60%;
     }
 
     .screenshot {
-        max-width: 350px;
+        width: 600px;
+    }
+    .site-description {
+        font-size: 30px;
+        padding: 2%;
+    }
+
+    .glowing {
+        margin-bottom: 50px;
     }
 
     .contact-container {
-        left: 0%;
+        left: 15%;
         padding: 2.5%;
+        font-size: 30px;
+        width: 65%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    nav, .home {
+        background: linear-gradient(to right, var(--dark-theme) 0% 70%, var(--bright-yellow) 70% 100%); 
+    }
+
+    .screenshot {
+        width: 350px;
+    }
+
+    #logo {
+        font-size: 30px;
+        margin-right: 0;
+    }
+
+    .nav-links {
+        align-items: center;
+    }
+
+    .expertise-link, .projects-link, .contact-link {
+        font-size: 20px;  
+    }
+    .expertise-link {
+        margin-left: 50px;
+    }
+
+    .home h1 {
+        font-size: 30px;
+        width: 200px;
+    }
+
+    #selfie {
+        width: 200px;
+
+    }
+
+    .home p, .right, .site-description, .contact-container {
         font-size: 20px;
-        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    .expertise {
+        flex-direction: column;
+    }
+
+    .projects h3 {
+        font-size: 30px;
     }
 }
 
 .dark-font {
     color: var(--dark-theme);
+}
+
+.glowing-light {
+    background-color: var(--buttons-light);
+    color: var(--dark-theme);
+}
+
+
+.glowing-light:before {
+    background: linear-gradient(45deg, #E8B3EE, #B898D9, #E2B4F0, #E69795, #D998D4, #BD95E6);
+}
+
+.glowing-light:active {
+    color: var(--buttons-light)
+}
+
+.glowing-light:after {
+    background: var(--buttons-light);
 }
 
 .light-mode-home {
