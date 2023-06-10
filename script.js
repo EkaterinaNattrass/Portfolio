@@ -13,7 +13,7 @@ function changeTheMode () {
     expertiseLink.classList.toggle("dark-font");
     projectsLink.classList.toggle("dark-font");
     home.classList.toggle("light-mode-home");
-    modeBtn.classList.toggle("light-mode-projects");
+    modeBtn.classList.toggle("mode-btn");
     expertise.classList.toggle("expertise-light")
     right.classList.toggle("light-mode-projects");
     projects.classList.toggle("light-mode-projects");

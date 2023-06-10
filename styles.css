@@ -84,7 +84,7 @@ nav a:hover {
 
 .mode {
     position: fixed;
-    top: 70%;
+    top: 60%;
     right: -50px;
     padding: 10px;
     height: 50px;
@@ -163,51 +163,32 @@ nav a:hover {
     text-align: center;
 }
 
-.projects div {
+.projects, .project {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
 }
 
-.project {
+.screenshot, .site-description {
+    width: 70%;
     position: relative;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left: 15%;
+    padding-top: 50px;
 }
 
 .site-description {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
     font-size: 25px;
-    width: 100%;
-    height: 100%;
+    line-height: 2;
 }
 
-.project:hover .screenshot {
-    opacity: 0;
+.tech-stack {
+    padding-top: 50px;
 }
 
-.site-description:hover {
-    opacity: 1;
-}
-
-.screenshot {
-    display: block;
-    max-width: 900px;
-    height: 600px;
-    object-fit: contain;
-    transition: .5s ease;
-    backface-visibility: hidden;
+.fa-brands.fa-html5.fa-xl, .fa-brands.fa-css3-alt.fa-xl, .fa-brands.fa-square-js.fa-xl, .fa-brands.fa-wordpress.fa-xl {
+    padding: 22px 10px;
+    border: var(--bright-yellow) solid 1px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 
 .contact {
@@ -251,7 +232,8 @@ nav a:hover {
 .glowing {
     width: 200px;
     height: 50px;
-    border: none;
+    margin: 50px 20px 50px 0;
+    border: var(--bright-yellow) solid 1px;
     outline: none;
     color: var(--bright-yellow);
     font-family: 'Staatliches', cursive;
@@ -261,7 +243,7 @@ nav a:hover {
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    margin-bottom: 50px;
+
 }
 
 .glowing:before {
@@ -320,12 +302,7 @@ nav a:hover {
 }
 
 @media (max-width:1500px) {
-    .projects div {
-        padding: 30px;
-    }
-    .buttons button {
-       margin-bottom: 20px;
-    }
+
     .right {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -370,13 +347,10 @@ nav a:hover {
         margin-top: 50px;
         margin-left: 400px;
     }
-
-    .screenshot {
-        max-width: 600px;
-    }
 }
 
 @media (max-width:800px) {
+
     nav {
         height: 300px;
     }
@@ -426,24 +400,7 @@ nav a:hover {
     .right {
         width: 80%;
         padding: 1.2%;
-        font-size: 40px;
-    }
-
-    .projects h3 {
-        font-size: 50px;
-        width: 60%;
-    }
-
-    .screenshot {
-        width: 600px;
-    }
-    .site-description {
         font-size: 30px;
-        padding: 2%;
-    }
-
-    .glowing {
-        margin-bottom: 50px;
     }
 
     .contact-container {
@@ -458,10 +415,6 @@ nav a:hover {
 
     nav, .home {
         background: linear-gradient(to right, var(--dark-theme) 0% 70%, var(--bright-yellow) 70% 100%); 
-    }
-
-    .screenshot {
-        width: 350px;
     }
 
     #logo {
@@ -487,7 +440,6 @@ nav a:hover {
 
     #selfie {
         width: 200px;
-
     }
 
     .home p, .right, .site-description, .contact-container {
@@ -499,20 +451,20 @@ nav a:hover {
         flex-direction: column;
     }
 
-    .projects h3 {
-        font-size: 30px;
-    }
 }
 
 .dark-font {
     color: var(--dark-theme);
 }
 
-.glowing-light {
+.mode-btn {
     background-color: var(--buttons-light);
     color: var(--dark-theme);
 }
 
+.glowing-light {
+    background-color: var(--buttons-light);
+}
 
 .glowing-light:before {
     background: linear-gradient(45deg, #E8B3EE, #B898D9, #E2B4F0, #E69795, #D998D4, #BD95E6);
