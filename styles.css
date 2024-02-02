@@ -184,7 +184,7 @@ nav a:hover {
     padding-top: 50px;
 }
 
-.fa-brands.fa-html5.fa-xl, .fa-brands.fa-css3-alt.fa-xl, .fa-brands.fa-square-js.fa-xl, .fa-brands.fa-wordpress.fa-xl {
+.fa-brands.fa-html5.fa-xl, .fa-brands.fa-css3-alt.fa-xl, .fa-brands.fa-square-js.fa-xl, .fa-brands.fa-wordpress.fa-xl, .fa-brands.fa-bootstrap.fa-xl {
     padding: 22px 10px;
     border: var(--bright-yellow) solid 1px;
     border-radius: 50%;
@@ -511,4 +511,8 @@ nav a:hover {
     .expertise {
         flex-direction: column;
     }
+}
+
+.span {
+    color: var(--bright-yellow)
 }
