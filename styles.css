@@ -513,6 +513,7 @@ nav a:hover {
     }
 }
 
-.span {
-    color: var(--bright-yellow)
+span {
+    color: var(--bright-yellow);
+    font-weight: bolder;
 }
