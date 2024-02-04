@@ -111,6 +111,8 @@ nav a:hover {
     margin: 0;
 }
 
+/*       EXPERTISE      */
+
 .expertise, .projects, .contact {
     min-height: 100vh;
 }
@@ -127,7 +129,7 @@ nav a:hover {
     justify-content: space-around;
 }
 
-.right, .projects {
+.right, .projects, .contact-container {
     color: white; 
     background-color: var(--dark-theme);
     line-height: 2;
@@ -137,6 +139,7 @@ nav a:hover {
     font-size: 25px;
     width: 60%;
     align-self: center;
+    box-shadow: grey 0px 8px 20px;
 }
 
 .right div {
@@ -153,6 +156,8 @@ nav a:hover {
     font-family: 'Staatliches', cursive;
     color: var(--bright-yellow);
 }
+
+/*         PROJECTS         */
 
 .projects h3 {
     font-family: 'Staatliches', cursive;
@@ -172,7 +177,7 @@ nav a:hover {
     width: 70%;
     position: relative;
     left: 15%;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .site-description {
@@ -191,6 +196,8 @@ nav a:hover {
     margin-right: 5px;
 }
 
+/*          CONTACT            */
+
 .contact {
     background-image: url(images/jaanus-jagomagi-Bg1hgJEU3Es-unsplash.jpg);
 }
@@ -203,10 +210,20 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     line-height: 2;
-    color: var(--dark-theme);
     width: 70%;
-    background-color: white;
     font-size: 25px;
+    box-shadow: grey 0px 8px 20px;
+}
+
+.link-to-contact {
+    text-decoration: none;
+    color: var(--bright-yellow);
+    font-size: 25px;
+}
+
+.link-to-contact:hover {
+    font-weight: bold;
+    font-size: 27px;
 }
 
 #github {
@@ -214,8 +231,11 @@ nav a:hover {
     text-decoration: none;
 }
 
-.fa-regular.fa-envelope, .fa-brands.fa-github {
-    padding-right: 30px;
+.fa-regular.fa-envelope, .fa-brands.fa-github, .fa-brands.fa-linkedin {
+    padding: 10px;
+    border: var(--bright-yellow) solid 1px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .fa-solid.fa-angle-up.fa-2xl {
@@ -511,6 +531,7 @@ nav a:hover {
     .expertise {
         flex-direction: column;
     }
+
 }
 
 span {

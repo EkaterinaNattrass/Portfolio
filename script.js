@@ -8,6 +8,7 @@ function changeTheMode () {
     const right = document.querySelector(".right");
     const projects = document.querySelector(".projects");
     const contact = document.querySelector(".contact");
+    const contactContainer = document.querySelector(".contact-container");
     const buttons = document.querySelectorAll(".glowing");
     nav.classList.toggle("light-mode-home");
     expertiseLink.classList.toggle("dark-font");
@@ -18,6 +19,7 @@ function changeTheMode () {
     right.classList.toggle("light-mode-projects");
     projects.classList.toggle("light-mode-projects");
     contact.classList.toggle("contact-light");
+    contactContainer.classList.toggle("light-mode-projects");
     for (let i = 0; i < buttons.length; i++ ) {
         buttons[i].classList.toggle("glowing-light")
     }
