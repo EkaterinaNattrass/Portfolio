@@ -1,200 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c2f32b1a72.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c2f32b1a72.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Ekaterina Nattrass frontend developer</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div id="logo" class="logo">Ekaterina
-                < /> Nattrass
-            </div>
-            <div class="nav-links">
-                <a href="#expertise" class="expertise-link">// expertise</a>
-                <a href="#projects" class="projects-link">// projects</a>
-                <a href="#contact" class="contact-link">// contact</a>
-            </div>
-        </nav>
+      <nav>
+        <div id="logo" class="logo">Ekaterina < /> Nattrass</div>
+        <div class="nav-links">
+          <a href="#expertise" class="expertise-link">// expertise</a>
+          <a href="#projects" class="projects-link">// projects</a>
+          <a href="#contact" class="contact-link">// contact</a>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="home">
-            <img src="images/selfie.png" alt="a head-shot of Ekaterina Nattrass smiling at the camera" id="selfie">
-            <h1>Front End Developer._</h1>
-            <p>
-                < Building Beautiful Experiences, <br>
-                    One Line at a Time />
-            </p>
-            <button onclick="changeTheMode()" class="mode">change mode</button>
-        </section>
-        <section class="expertise" id="expertise">
-            <div class="left">
-                <h2>// expertise</h2>
+      <section class="home">
+        <img
+          src="images/selfie.png"
+          alt="a head-shot of Ekaterina Nattrass smiling at the camera"
+          id="selfie"
+        />
+        <h1>Front End Developer._</h1>
+        <p>
+          < Building Beautiful Experiences, <br />
+          One Line at a Time />
+        </p>
+        <button onclick="changeTheMode()" class="mode">change mode</button>
+      </section>
+      <section class="expertise" id="expertise">
+        <div class="left">
+          <h2>// expertise</h2>
+        </div>
+        <div class="right">
+          <div>
+            Hello! I'm Ekaterina, a passionate web developer with a deep love
+            for creating elegant and functional websites.
+          </div>
+          <div>
+            My expertise lies in designing and crafting responsive and visually
+            appealing websites using the latest web technologies such as
+            <span>HTML5</span>, <span> CSS3</span>, <span>Bootstrap</span>,
+            <span>Tailwind</span>, <span>JavaScript</span> and
+            <span>React</span>. In my projects I also use
+            <span>Node.js</span> and <span>Express.js</span> to build an
+            efficient backend infrastructure. I have experience working with
+            <span>MongoDB</span>, a NoSQL database.
+          </div>
+          <div>
+            Feel free to explore my portfolio and get in touch to discuss your
+            next project!
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div>
+          <h3>{ HOLIDAZE }</h3>
+          <div class="project">
+            <img
+              src="images/Holidaze.png"
+              class="screenshot"
+              alt="a screenshot of the home page to the Holidaze website"
+            />
+            <div class="site-description">
+              A holidays accomodation website allowing a customer to book listed
+              venues and a venue owner to manage properties. The website
+              features minimalistic design and colour palette that encourages
+              adventures and positive mindset.
+              <div class="tech-stack">
+                <i class="fa-brands fa-square-js fa-xl"></i>
+                <i class="fa-brands fa-react"></i>
+                <div>MUI</div>
+              </div>
+              <div class="buttons">
+                <a href="https://peppy-froyo-40c9b0.netlify.app/"
+                  ><button class="glowing">check out Web Site</button></a
+                >
+                <a href="https://github.com/EkaterinaNattrass/rainydays-website"
+                  ><button class="glowing">explore Github</button></a
+                >
+              </div>
             </div>
-            <div class="right">
-                <div>Hello! I'm Ekaterina, a passionate web developer with a deep love for creating elegant and
-                    functional websites.</div>
-                <div>My expertise lies in designing and crafting responsive and visually appealing websites using the latest web
-                    technologies such as <span>HTML5</span>, <span> CSS3</span>, <span>Bootstrap</span>, <span>Tailwind</span>, <span>JavaScript</span> and <span>React</span>. 
-                    In my projects I also use <span>Node.js</span> and <span>Express.js</span> to build an efficient backend 
-                    infrastructure. I have experience working with <span>MongoDB</span>, a NoSQL database.</div>
-                <div>Feel free to explore my portfolio and get in touch to discuss your next project!</div>
+          </div>
+        </div>
+        <div>
+          <h3>{ Rainy Days }</h3>
+          <div class="project">
+            <img
+              src="images/RainyDays.png"
+              class="screenshot"
+              alt="a screenshot of the home page to the Rainydays website showing mountains in the distance"
+            />
+            <div class="site-description">
+              An e-commerce website selling outdoors jackets of various kinds.
+              The target group includes middle-aged people ready for new
+              challenges and fascinating adventures. The choice of breath-taking
+              outdoors images, natural colours and clean geometric fonts - all
+              that designed to attract a customer.
+              <div class="tech-stack">
+                <i class="fa-brands fa-html5 fa-xl"></i>
+                <i class="fa-brands fa-css3-alt fa-xl"></i>
+                <i class="fa-brands fa-square-js fa-xl"></i>
+                <i class="fa-brands fa-wordpress fa-xl"></i>
+              </div>
+              <div class="buttons">
+                <a href="https://peppy-froyo-40c9b0.netlify.app/"
+                  ><button class="glowing">check out Web Site</button></a
+                >
+                <a href="https://github.com/EkaterinaNattrass/rainydays-website"
+                  ><button class="glowing">explore Github</button></a
+                >
+              </div>
             </div>
-        </section>
-        <section class="projects" id="projects">
-            <div>
-                <h3> { Rainy Days } </h3>
-                <div class="project">
-                    <img src="images/RainyDays.png" class="screenshot"
-                        alt="a screenshot of the home page to the Rainydays website showing mountains in the distance">
-                    <div class="site-description">An e-commerce website selling outdoors jackets of various kinds. The
-                        target group includes middle-aged people ready for new challenges and fascinating adventures.
-                        The choice of breath-taking outdoors images, natural colours and clean geometric fonts - all
-                        that designed to attract a customer.
-                        <div class="tech-stack">
-                            <i class="fa-brands fa-html5 fa-xl"></i>
-                            <i class="fa-brands fa-css3-alt fa-xl"></i>
-                            <i class="fa-brands fa-square-js fa-xl"></i>
-                            <i class="fa-brands fa-wordpress fa-xl"></i>
-                        </div>
-                        <div class="buttons">
-                            <a href="https://peppy-froyo-40c9b0.netlify.app/"><button class="glowing">check out Web
-                                    Site</button></a>
-                            <a href="https://github.com/EkaterinaNattrass/rainydays-website"><button
-                                    class="glowing">explore
-                                    Github</button></a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h3>{ Community Science Museum }</h3>
+          <div class="project">
+            <img
+              src="images/Museum.png"
+              class="screenshot"
+              alt="a screenshot of Community Science museum home page showing the building of the museum"
+            />
+            <div class="site-description">
+              A website for a local science museum which has various exhibition
+              spaces which it strives to make as much fun as possible. The
+              website is directed at both children interested in science and
+              families looking for a place to spend their time together while
+              learning something new.
+              <div class="tech-stack">
+                <i class="fa-brands fa-html5 fa-xl"></i>
+                <i class="fa-brands fa-css3-alt fa-xl"></i>
+              </div>
+              <div class="buttons">
+                <a href="https://glittery-kitten-be132b.netlify.app"
+                  ><button class="glowing">check out web site</button></a
+                >
+                <a
+                  href="https://github.com/EkaterinaNattrass/community-science-museum"
+                  ><button class="glowing">explore github</button></a
+                >
+              </div>
             </div>
-            <div>
-                <h3> { Community Science Museum } </h3>
-                <div class="project">
-                    <img src="images/Museum.png" class="screenshot"
-                        alt="a screenshot of Community Science museum home page showing the building of the museum">
-                    <div class="site-description">A website for a local science museum which has various exhibition
-                        spaces which it strives to make as much fun as possible. The website is directed at both
-                        children interested in science and families looking for a place to spend their time together while
-                        learning something new.
-                        <div class="tech-stack">
-                            <i class="fa-brands fa-html5 fa-xl"></i>
-                            <i class="fa-brands fa-css3-alt fa-xl"></i>
-                        </div>
-                        <div class="buttons">
-                            <a href="https://glittery-kitten-be132b.netlify.app"><button class="glowing">check out web
-                                    site</button></a>
-                            <a href="https://github.com/EkaterinaNattrass/community-science-museum"><button
-                                    class="glowing">explore github</button></a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h3>{ Lesesirkel }</h3>
+          <div class="project">
+            <img
+              src="images/Lesesirkel.png"
+              class="screenshot"
+              alt="a screenshot of the reading club web page"
+            />
+            <div class="site-description">
+              <div class="text">
+                Both English and Norwegian Reading Clubs website, a virtual
+                haven for literary enthusiasts. The platform is designed to
+                cultivate a vibrant community of readers who share a passion for
+                literature through messages, comments and signing up for
+                meetings. Node.js and Express.js play pivotal roles in the
+                project, providing a robust server-side environment.
+              </div>
+              <div class="tech-stack">
+                <i class="fa-brands fa-html5 fa-xl"></i>
+                <i class="fa-brands fa-css3-alt fa-xl"></i>
+                <i class="fa-brands fa-square-js fa-xl"></i>
+                <i class="fa-brands fa-bootstrap fa-xl"></i>
+              </div>
+              <div class="buttons">
+                <a
+                  href="https://sleepy-anchorage-32434-05fdd54b3573.herokuapp.com/"
+                  ><button class="glowing">Web site</button></a
+                >
+                <a href="https://github.com/EkaterinaNattrass/lesesirkel"
+                  ><button class="glowing">Github repo</button></a
+                >
+              </div>
             </div>
-            <div>
-                <h3> { Lesesirkel }</h3>
-                <div class="project">
-                    <img src="images/Lesesirkel.png" class="screenshot"
-                        alt="a screenshot of the reading club web page">
-                    <div class="site-description">
-                        <div class="text"> Both English and Norwegian Reading Clubs website, 
-                            a virtual haven for literary enthusiasts. The platform is designed to cultivate a vibrant community of readers 
-                            who share a passion for literature through messages, comments and signing up for meetings. 
-                            Node.js and Express.js play pivotal roles in the project, providing a robust server-side environment.
-                        </div>
-                        <div class="tech-stack">
-                            <i class="fa-brands fa-html5 fa-xl"></i>
-                            <i class="fa-brands fa-css3-alt fa-xl"></i>
-                            <i class="fa-brands fa-square-js fa-xl"></i>
-                            <i class="fa-brands fa-bootstrap fa-xl"></i>
-                        </div>
-                        <div class="buttons">
-                            <a href="https://sleepy-anchorage-32434-05fdd54b3573.herokuapp.com/"><button class="glowing">Web
-                                    site</button></a>
-                            <a href="https://github.com/EkaterinaNattrass/lesesirkel"><button class="glowing">Github
-                                    repo</button></a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h3>{ Auction House }</h3>
+          <div class="project">
+            <img
+              src="images/AuctionHouse.png"
+              class="screenshot"
+              alt="a screenshot of the reading club web page"
+            />
+            <div class="site-description">
+              <div class="text">
+                An online auction platform that allows users to both showcase
+                their items for sale and bid on others'. Upon registration, each
+                client receives 1000 points to use on bidding and gets points
+                for every item sold. Auction House offers a user-friendly
+                interface where participants can easily navigate through the
+                items, place their bids, and monitor the bids of others. The web
+                application is built again with Express.js on top on Node.js.
+              </div>
+              <div class="tech-stack">
+                <i class="fa-brands fa-html5 fa-xl"></i>
+                <i class="fa-brands fa-css3-alt fa-xl"></i>
+                <i class="fa-brands fa-square-js fa-xl"></i>
+                <i class="fa-brands fa-bootstrap fa-xl"></i>
+              </div>
+              <div class="buttons">
+                <a
+                  href="https://noroff-auction-house-80f72f8a1683.herokuapp.com/"
+                  ><button class="glowing">Web site</button></a
+                >
+                <a href="https://github.com/EkaterinaNattrass/Auction_House"
+                  ><button class="glowing">Github repo</button></a
+                >
+              </div>
             </div>
-            <div>
-                <h3> { Auction House }</h3>
-                <div class="project">
-                    <img src="images/AuctionHouse.png" class="screenshot"
-                        alt="a screenshot of the reading club web page">
-                    <div class="site-description">
-                        <div class="text"> 
-                            An online auction platform that allows users to both showcase their items for sale and bid on others'. 
-                            Upon registration, each client receives 1000 points to use on bidding and gets points for every item sold. 
-                            Auction House offers a user-friendly interface where participants can easily navigate through the items, place their bids, 
-                            and monitor the bids of others. The web application is built again with Express.js on top on Node.js.
-                            
-                        </div>
-                        <div class="tech-stack">
-                            <i class="fa-brands fa-html5 fa-xl"></i>
-                            <i class="fa-brands fa-css3-alt fa-xl"></i>
-                            <i class="fa-brands fa-square-js fa-xl"></i>
-                            <i class="fa-brands fa-bootstrap fa-xl"></i>
-                        </div>
-                        <div class="buttons">
-                            <a href="https://noroff-auction-house-80f72f8a1683.herokuapp.com/"><button class="glowing">Web
-                                    site</button></a>
-                            <a href="https://github.com/EkaterinaNattrass/Auction_House"><button class="glowing">Github
-                                    repo</button></a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h3>{ Oslo Sup }</h3>
+          <div class="project">
+            <img
+              src="images/OsloSup.png"
+              class="screenshot"
+              alt="a screenshot of the OsloSup blog home page showing a couple on a sup in an ocean"
+            />
+            <div class="site-description">
+              <div class="text">
+                A blog of a paddle board enthusiast living currently in Oslo.
+                The website invites you to jump on the board and explore the
+                ocean with its strong marine vibe and inspiring ocean images.
+                The posts cover a wide range of topics dedicated to the
+                activity.
+              </div>
+              <div class="tech-stack">
+                <i class="fa-brands fa-html5 fa-xl"></i>
+                <i class="fa-brands fa-css3-alt fa-xl"></i>
+                <i class="fa-brands fa-square-js fa-xl"></i>
+                <i class="fa-brands fa-wordpress fa-xl"></i>
+              </div>
+              <div class="buttons">
+                <a href="https://frolicking-truffle-7c228c.netlify.app/"
+                  ><button class="glowing">Web site</button></a
+                >
+                <a href="https://github.com/EkaterinaNattrass/Oslo-Sup"
+                  ><button class="glowing">Github repo</button></a
+                >
+              </div>
             </div>
-            <div>
-                <h3> { Oslo Sup }</h3>
-                <div class="project">
-                    <img src="images/OsloSup.png" class="screenshot"
-                        alt="a screenshot of the OsloSup blog home page showing a couple on a sup in an ocean">
-                    <div class="site-description">
-                        <div class="text"> A blog of a paddle board enthusiast living currently in Oslo. The website
-                            invites you to jump on the board and explore the ocean with its strong marine vibe and
-                            inspiring ocean images. The posts cover a wide range of topics dedicated to the activity.
-                        </div>
-                        <div class="tech-stack">
-                            <i class="fa-brands fa-html5 fa-xl"></i>
-                            <i class="fa-brands fa-css3-alt fa-xl"></i>
-                            <i class="fa-brands fa-square-js fa-xl"></i>
-                            <i class="fa-brands fa-wordpress fa-xl"></i>
-                        </div>
-                        <div class="buttons">
-                            <a href="https://frolicking-truffle-7c228c.netlify.app/"><button class="glowing">Web
-                                    site</button></a>
-                            <a href="https://github.com/EkaterinaNattrass/Oslo-Sup"><button class="glowing">Github
-                                    repo</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-        </section>
-        <section class="contact" id="contact">
-            <h2>// contact</h2>
-            <div class="contact-container">
-                <div>If you have a question or proposal, feel free to contact me</div>
-                <div><i class="fa-regular fa-envelope"></i><a href="mailto:cattiva2012@gmail.com" class="link-to-contact">cattiva2012@gmail.com</a></div>
-                <div><i class="fa-brands fa-github"></i><a href="https://github.com/EkaterinaNattrass" class="link-to-contact">Github</a></div>
-                <div><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/ekaterina-nattrass-4b4336298/" class="link-to-contact">LinkedIn</a></div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>// contact</h2>
+        <div class="contact-container">
+          <div>If you have a question or proposal, feel free to contact me</div>
+          <div>
+            <i class="fa-regular fa-envelope"></i
+            ><a href="mailto:cattiva2012@gmail.com" class="link-to-contact"
+              >cattiva2012@gmail.com</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-github"></i
+            ><a
+              href="https://github.com/EkaterinaNattrass"
+              class="link-to-contact"
+              >Github</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-linkedin"></i
+            ><a
+              href="https://www.linkedin.com/in/ekaterina-nattrass-4b4336298/"
+              class="link-to-contact"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
-    <a href="#" aria-label="button up"><i class="fa-solid fa-angle-up fa-2xl"></i></a>
-</body>
-<script src="script.js"></script>
-
+    <a href="#" aria-label="button up"
+      ><i class="fa-solid fa-angle-up fa-2xl"></i
+    ></a>
+  </body>
+  <script src="script.js"></script>
 </html>
